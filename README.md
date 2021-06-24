@@ -88,3 +88,16 @@ Sizing in percentages
 1/2... 1/{3, 4, 5, 6, 12)
 Sizing utilities
 ```
+
+## Padding & Margin
+
+11. Padding and margins with `p-*`, `m-*`, `py-*` and `my-*`
+-  These classes add padding and margin to an element using the Tailwind numbering system.
+```
+.p-* {}
+.m-* {}
+.p{x, y}-* {}
+.m{x, y}-* {}
+.{p|m{l|r|t|b}}-{size}
+.{p|m{x|y}}-{size}
+```
