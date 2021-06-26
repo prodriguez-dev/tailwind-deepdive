@@ -64,17 +64,17 @@ yellow, green
 
 9. Tailwind's Numbering System
 - Assuming the base font of the document is 16px
-  - | Pixels | rem | Tailwind |
-    |:------:|:---:|:--------:|
-    | 0px | 0 rem | 0 |
-    | 4px | 0.25 rem | 1 |
-    | 8px | 0.5 rem | 2 |
-    | 12px | 0.75 rem | 3 |
-    | 16px | 1 rem | 4 |
-    | 20px | 1.25 rem | 5 |
-    | 24px | 1.5 rem | 6 |
-    | 32px | 2 rem | 8 |
-    | 40px | 2.5 rem | 10 |
+- | Pixels | rem | Tailwind |
+  |:------:|:---:|:--------:|
+  | 0px | 0 rem | 0 |
+  | 4px | 0.25 rem | 1 |
+  | 8px | 0.5 rem | 2 |
+  | 12px | 0.75 rem | 3 |
+  | 16px | 1 rem | 4 |
+  | 20px | 1.25 rem | 5 |
+  | 24px | 1.5 rem | 6 |
+  | 32px | 2 rem | 8 |
+  | 40px | 2.5 rem | 10 |
 - Continues to all of the available default sizes 12, 16, 20, 24, 32, 40, 48, 56, 64
 
 10. Sizing with `w-*` and `h-*` classes
@@ -101,3 +101,56 @@ Sizing utilities
 .{p|m{l|r|t|b}}-{size}
 .{p|m{x|y}}-{size}
 ```
+## Styling Text - Font Family
+
+12. Font Family
+- `.font-{family}`
+- Families
+  - sans
+  - serif
+  - mono
+- Apply to body
+
+13. Text Size
+- `.text-{size}`
+- | Sizes | rem | Pixels |
+  |:------:|:---:|:--------:|
+  | xs | .75 rem | 12px |
+  | sm | .875 rem | 14px |
+  | base | 1 rem | 16px |
+  | lg | 1.125 rem | 18px |
+  | xl | 1.25 rem | 20px |
+  | 2xl | 1.5 rem | 24px |
+  | 3xl | 1.875 rem | 30px |
+  | 4xl | 2.25 rem | 36px |
+  | 5xl | 3 rem | 48px |
+  | 6xl | 4 rem | 64px |
+
+14. Text Alignment
+- `.text-{align}`
+  - left
+  - center
+  - right
+  - justify
+
+15. Text Color
+- `.text-{color}-{shade}`
+- apply to body as well
+
+16. Text - Italics
+- `.italic`
+- `.not-italic`
+
+17. Text - Font Weight
+- `.text-{weight}`
+  | Weights | Font Weight |
+  |:------:|:--------:|
+  | hairline | 100 |
+  | thin | 200 |
+  | light | 300 |
+  | normal | 400 |
+  | medium | 500 |
+  | semibold | 600 |
+  | bold | 700 |
+  | extrabold | 800 |
+  | black | 900 |
