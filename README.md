@@ -154,3 +154,39 @@ Sizing utilities
   | bold | 700 |
   | extrabold | 800 |
   | black | 900 |
+
+18. Text - Letter Spacing
+- `.tracking-{spacing}`
+- | Spacings | Font Weight |
+  |:------:|:--------:|
+  | tighter | -0.05em |
+  | tight | -0.025em |
+  | normal | 0 |
+  | wide | 0.025em |
+  | wider | 0.05em |
+  | widest | 0.1em |
+- __Note:__ Tracking is in __em__ units not in __rem__.
+- __em__ units is base on the parent element's font size, not the document.
+
+19. Text - Line height
+- `.leading-{spacing}`
+- | Spacings | Font Weight |
+  |:------:|:--------:|
+  | none | 1 |
+  | tight | 1.25 |
+  | snug | 1.375 |
+  | normal | 1.5 |
+  | relaxed | 1.625 |
+  | loose | 2 |
+
+20. Text Decorations
+- `.underline`
+- `.no-underline`
+- `.line-through`
+
+21. Text Transform
+- `.uppercase`
+- `.lowercase`
+- `.capitalize`
+- `.normal-case`
+
