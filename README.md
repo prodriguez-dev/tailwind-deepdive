@@ -142,7 +142,7 @@ Sizing utilities
 - `.not-italic`
 
 17. Text - Font Weight
-- `.text-{weight}`
+- `.font-{weight}`
   | Weights | Font Weight |
   |:------:|:--------:|
   | hairline | 100 |
